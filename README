@@ -1,0 +1,23 @@
+US Places ordered by Population
+
+For right now it just included data from the 2010 Census.
+
+Gathered by querying the Census database at
+https://factfinder.census.gov/ and then performing some additional
+processing.
+
+Used the Advanced search with the following paramaters.
+
+People: Basic Count / Estimate: Population Total
+
+Geographies: State: Place (160)
+             Urban Area (400)
+
+             County (050)
+             Metro/Micro Stat. Area (310)
+             American Indian Areas/Alaska Native Areas/Hawaiian Home Lands (250)
+
+And then selecting: TOTAL POPULATION: 2010 SF2 100% Data
+
+Note data from 050, 310 & 250 are in the currently unused in the final
+result.
